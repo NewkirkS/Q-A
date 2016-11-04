@@ -1,12 +1,19 @@
 <h4>Answers</h4>
 <hr>
 {{#each question.answers as |answer|}}
-  <div class="answer-entry">
-    <p>{{answer.content}}</p>
-    <ul>
-      <li>{{answer.answerdate}}</li>
-      <li class="author">{{answer.answerauthor}}</li>
-    </ul>
+  <div class="row">
+    <div class="col-xs-9 answer-entry">
+      <p>{{answer.content}}</p>
+      <ul>
+        <li>{{answer.answerdate}}</li>
+        <li class="author">{{answer.answerauthor}}</li>
+      </ul>
+    </div>
+    <div class="score-panel col-xs-3">
+      <button class="btn" {{action "increaseScore" answer}}>+</button>
+      <h4>{{answer.score}}</h4>
+      <button class="btn" {{action "decreaseScore" answer}}>-</button>
+    </div>
   </div>
   <hr>
 {{/each}}
