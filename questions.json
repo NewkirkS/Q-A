@@ -1,0 +1,17 @@
+{ "questions": [{
+    "title": "How to navigate through complex JSON dynamically in JavaScript",
+    "author": "tussleman2",
+    "date": "10/27/16",
+    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat id dui accumsan consequat. Nunc semper ex ligula, vel pulvinar libero lacinia non. Phasellus ultrices metus risus, quis tincidunt nisl consequat sit amet. Pellentesque vulputate nec felis sit amet faucibus. Etiam pulvinar maximus dolor. Fusce egestas mauris non iaculis laoreet. Morbi commodo vitae nisl vel aliquet. Curabitur ac tellus justo. Aliquam erat volutpat. Fusce cursus sed dolor quis faucibus. Mauris id semper ante, nec finibus odio."
+  }, {
+    "title": "Integrate promise into API request",
+    "author": "the_wizzard",
+    "date": "10/25/16",
+    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat id dui accumsan consequat. Nunc semper ex ligula, vel pulvinar libero lacinia non. Phasellus ultrices metus risus, quis tincidunt nisl consequat sit amet. Pellentesque vulputate nec felis sit amet faucibus. Etiam pulvinar maximus dolor. Fusce egestas mauris non iaculis laoreet. Morbi commodo vitae nisl vel aliquet. Curabitur ac tellus justo. Aliquam erat volutpat. Fusce cursus sed dolor quis faucibus. Mauris id semper ante, nec finibus odio."
+  }, {
+    "title": "Typescript best practices for class structure",
+    "author": "gilbates",
+    "date": "10/24/16",
+    "detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat id dui accumsan consequat. Nunc semper ex ligula, vel pulvinar libero lacinia non. Phasellus ultrices metus risus, quis tincidunt nisl consequat sit amet. Pellentesque vulputate nec felis sit amet faucibus. Etiam pulvinar maximus dolor. Fusce egestas mauris non iaculis laoreet. Morbi commodo vitae nisl vel aliquet. Curabitur ac tellus justo. Aliquam erat volutpat. Fusce cursus sed dolor quis faucibus. Mauris id semper ante, nec finibus odio."
+  }]
+}

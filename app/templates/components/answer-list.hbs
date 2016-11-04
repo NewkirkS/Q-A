@@ -1,0 +1,16 @@
+<h4>Answers</h4>
+<hr>
+{{#each question.answers as |answer|}}
+  <div class="answer-entry">
+    <p>{{answer.content}}</p>
+    <ul>
+      <li>{{answer.answerdate}}</li>
+      <li class="author">{{answer.answerauthor}}</li>
+    </ul>
+  </div>
+  <hr>
+{{/each}}
+
+<div class="answer-form">
+{{new-answer question=question saveAnswer="saveAnswer"}}
+</div>

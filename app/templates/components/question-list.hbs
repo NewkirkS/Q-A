@@ -1,0 +1,14 @@
+{{#each model as |question|}}
+<div class="question">
+  <hr>
+  {{#link-to 'question' question.id}}<h4>{{question.title}}</h4>{{/link-to}}
+  <ul>
+    <li>{{question.date}}</li>
+    <li class="author">{{question.author}}</li>
+  </ul>
+</div>
+{{/each}}
+
+<div class="index-forms">
+  {{new-question saveQuestion="saveQuestion"}}
+</div>

@@ -1,0 +1,14 @@
+<div class="question-content">
+  <h2>{{question.title}}</h2>
+  <hr>
+  <p>{{question.detail}}</p>
+  <hr>
+  <p><span class="author">{{question.author}}</span> {{question.date}}</p>
+  {{#if updateActive}}
+    <div class="update-form">
+      {{update-question question=question updateQuestion="updateQuestion"}}
+    </div>
+  {{else}}
+    <button class="btn" {{action "showUpdateForm"}}>Edit</button>
+  {{/if}}
+</div>

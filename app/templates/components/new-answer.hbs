@@ -1,0 +1,16 @@
+<h3 class="subtitle">Add an Answer</h3>
+<form>
+  <div class="form-group">
+    <label for="answerauthor">Username</label>
+    {{input class="form-control" value=answerauthor id="answerauthor"}}
+  </div>
+  <div class="form-group">
+    <label for="answerdate">Date</label>
+    {{input class="form-control" value=answerdate id="answerdate"}}
+  </div>
+  <div class="form-group">
+    <label for="content">Answer</label>
+    {{textarea rows=8 class="form-control" value=content id="content"}}
+  </div>
+  <button class="btn" {{action "saveAnswer"}}>Add</button>
+</form>
