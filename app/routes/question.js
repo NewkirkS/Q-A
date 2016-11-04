@@ -27,10 +27,16 @@ export default Ember.Route.extend({
       this.transitionTo("question");
     },
     increaseScore(question) {
-
+      this.store.findRecord('answer', question.id).then(function(){
+        question.incrementProperty('score');
+        return question.save();
+      });
     },
     decreaseScore(question) {
-      
+      this.store.findRecord('answer', question.id).then(function(){
+        question.decrementProperty('score');
+        return question.save();
+      });
     }
   }
 });
