@@ -47,6 +47,11 @@ ul {
   font-family: 'Nova Mono', monospace;
 }
 
+.fancy-header {
+  font-family: 'Nova Mono', monospace;
+  text-align: center;
+}
+
 #page-header {
   font-size: 90px;
 }

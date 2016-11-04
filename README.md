@@ -6,7 +6,7 @@
 
 ## Description
 
-_Version 2 of a previous question and answer board app. In addition to the basic functionality of asking questions and answering them, version 2 allows users to upvote or downvote answers and keeps track of the number of questions and answers the user has posted during a particular session._
+_Version 2 of a previous question and answer board app. In addition to the basic functionality of asking questions and answering them, version 2 allows users to upvote or downvote answers and keeps track of the number of questions and answers the user has posted during a particular session. Created to practice helpers, computed properties and services in Ember._
 
 
 ## Prerequisites
