@@ -1,11 +1,17 @@
 {{#each model as |question|}}
-<div class="question">
+<div class="row">
   <hr>
-  {{#link-to 'question' question.id}}<h4>{{question.title}}</h4>{{/link-to}}
-  <ul>
-    <li>{{question.date}}</li>
-    <li class="author">{{question.author}}</li>
-  </ul>
+  <div class="col-xs-6 question">
+    {{#link-to 'question' question.id}}<h4>{{question.title}}</h4>{{/link-to}}
+    <ul>
+      <li>{{question.date}}</li>
+      <li class="author">{{question.author}}</li>
+    </ul>
+  </div>
+  <div class="col-xs-6 answer-count">
+    <h4>{{answer-count question}}</h4>
+    <p class="answer-name">Answers</p>
+  </div>
 </div>
 {{/each}}
 

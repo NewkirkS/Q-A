@@ -18,3 +18,11 @@ ul {
 .answer-section {
   margin-top: 10px;
 }
+
+.answer-count {
+  text-align: center;
+}
+
+.answer-name {
+  font-style: italic;
+}
