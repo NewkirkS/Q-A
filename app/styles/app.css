@@ -30,3 +30,12 @@ ul {
 .score-panel {
   text-align: center;
 }
+
+.index-header {
+  color: purple;
+  text-align: center;
+  background-image: url("http://wallpapers-and-backgrounds.net/wp-content/uploads/2016/06/blue-abstract-uhd-background_1_960x540.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+}

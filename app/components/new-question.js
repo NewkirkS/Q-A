@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  answerLogger: Ember.inject.service(),
   actions: {
     saveQuestion() {
       var params = {
@@ -17,6 +18,7 @@ export default Ember.Component.extend({
         this.set('author', undefined);
         this.set('date', undefined);
         this.set('detail', undefined);
+        this.get('answerLogger').incrementQuestions();
       }
     }
   }
