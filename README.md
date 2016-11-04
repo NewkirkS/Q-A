@@ -1,4 +1,4 @@
-# Message-board 2.0
+# Q/A
 
 #### _11-3-16_
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-_FILL IN LATER._
+_Version 2 of a previous question and answer board app. In addition to the basic functionality of asking questions and answering them, version 2 allows users to upvote or downvote answers and keeps track of the number of questions and answers the user has posted during a particular session._
 
 
 ## Prerequisites
@@ -39,6 +39,10 @@ You will need the following things properly installed on your computer.
 ## Support and contact details
 
 _Stephen Newkirk: newkirk771@gmail.com_
+
+## Known Bugs
+
+_Long sequences of integers do not wrap in divs._
 
 ## Technologies Used
 

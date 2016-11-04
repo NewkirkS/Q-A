@@ -1,14 +1,14 @@
 {{#each model as |question|}}
 <div class="row">
   <hr>
-  <div class="col-xs-6 question">
+  <div class="col-xs-10 question">
     {{#link-to 'question' question.id}}<h4>{{question.title}}</h4>{{/link-to}}
     <ul>
       <li>{{question.date}}</li>
       <li class="author">{{question.author}}</li>
     </ul>
   </div>
-  <div class="col-xs-6 answer-count">
+  <div class="col-xs-2 answer-count">
     <h4>{{answer-count question}}</h4>
     <p class="answer-name">Answers</p>
   </div>
